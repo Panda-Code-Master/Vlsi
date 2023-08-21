@@ -1,8 +1,6 @@
 # Ususally occuring errors while instaling prerequisites
 
 ### 1. when configuring iverilog : "checking whether C compiler works..... no"
-![image](https://github.com/yagnavivek/PES_ASIC_CLASS/assets/93475824/991acdaa-2d53-4858-aebe-9fa7b4b707b2)
-
 ####  Solution : 
   This error usually occurs if you have a gcc version less than 12. You can check it using ``` gcc --version```
   to resolve this You have to upgrade your gcc version. To do that, follow the below commands
@@ -42,7 +40,6 @@
   MAKE SURE YOU REFRESH or CLOSE-OPEN TEHE TERMINAL BEFORE CONTINUING THE SCRIPT
 
 ### 3. fatal error: stdio.h : No such file or directory
-![Screenshot from 2023-08-19 17-05-51](https://github.com/yagnavivek/PES_ASIC_CLASS/assets/93475824/dcd4cc9e-00be-44a6-836d-7697d5267d0a)
 
 ```
 vim ~/.bashrc
